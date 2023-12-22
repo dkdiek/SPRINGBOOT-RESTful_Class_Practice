@@ -21,6 +21,7 @@ dependencies {
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	runtimeOnly 'com.mysql:mysql-connector-j'
+	implementation group: 'org.jsoup', name: 'jsoup', version: '1.17.1'
 }
 
 tasks.named('test') {
